@@ -58,7 +58,7 @@ header {
   text-align: center;
 }
 
-h1 {
+.logo {
   font-family: "Pangolin", cursive;
   font-size: 72px;
   color: #fff;
@@ -131,6 +131,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
+/* set the media query for screens that are wider than `480px`.*/
 @media all and (min-width: 480px) {
   header {
     display: flex;
